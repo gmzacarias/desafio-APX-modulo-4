@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+/* Bienvenida */
+.bienvenida {
+    height: 500px;
+    background-color: #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida__background {
+    width: 100%;
+    height: 500px;
+}
+
+.bienvenida-container-content {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+
+}
+
+.bienvenida-container-content__title {
+    font-family: "montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.bienvenida-container-content__description {
+    font-family: "montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}

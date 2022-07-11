@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.mi-portfolio-container {
+    display: none;
+}
+
+@media(min-width:1080px) {
+    .mi-portfolio-container {
+        background: linear-gradient(107.17deg, #28A5F1 29.35%, rgba(39, 17, 149, 0.8) 78.73%);
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.mi-portfolio-container__title {
+    display: none;
+}
+
+@media(min-width:1080px) {
+    .mi-portfolio-container__title {
+        display: block;
+        font-family: "montserrat", sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+}

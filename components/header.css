@@ -1,0 +1,160 @@
+/* Header */
+.header-container {
+    background-color: #292728;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media(min-width:1080px) {
+    .header-container {
+        height: 120px;
+    }
+}
+
+
+.header-container__logo {
+    padding: 15px;
+}
+
+@media(min-width:1080px) {
+    .header-container__logo {
+        padding: 20px 40px;
+    }
+}
+
+.container__logo-img {
+    width: 50px;
+    height: 50px;
+
+}
+
+@media(min-width:1080px) {
+    .container__logo-img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+/*Mobile */
+.header-container__nav-mobile {
+    width: 80px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+@media(min-width:1080px) {
+    .header-container__nav-mobile {
+        display: none;
+    }
+}
+
+
+.nav-mobile__modal {
+    width: 50px;
+    height: 10px;
+    background-color: #28A5F1;
+}
+
+@media(min-width:1080px) {
+    .nav-mobile__modal {
+        display: none;
+    }
+
+}
+
+/*modal*/
+
+.header-container__modal {
+    background-color: #292728;
+    border: solid 2px #292728;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 50%;
+    bottom: 50%;
+    display: none;
+    flex-direction: column;
+    gap: 65px;
+}
+
+
+.modal__container-button {
+    text-align: right;
+    ;
+}
+
+.container-button__cierra-ventana {
+    background-color: #292728;
+    border: solid 2px #28A5F1;
+    border-radius: 200%;
+    margin: 10px 10px;
+    font-size: 36px;
+    color: #28A5F1;
+}
+
+@media(min-width:1080px) {
+    .container-button__cierra-ventana {
+        display: none;
+    }
+}
+
+.modal__container-links {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+@media(min-width:1080px) {
+    .modal__container-links {
+        display: none;
+    }
+}
+
+
+/* Desktop*/
+.header-container__nav-desktop {
+    display: none;
+}
+
+@media(min-width:1080px) {
+    .header-container__nav-desktop {
+        padding-right: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
+
+
+/* font version mobile*/
+.container-links__font {
+
+    border-bottom: solid 2px #28A5F1;
+    border-top: solid 2px #28A5F1;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #28A5F1;
+}
+
+/* font version desktop*/
+
+@media(min-width:1080px) {
+    .container-links__font {
+        font-size: 24px;
+    }
+}
